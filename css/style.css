@@ -153,6 +153,9 @@ a {
   position: relative;
   bottom: 0;
 }
+.menu:hover::after {
+  opacity: 1;
+}
 .menu::after {
   content: "";
 
@@ -164,6 +167,8 @@ a {
   height: 4px;
   background-color: #2196f3;
   border-radius: 2px;
+
+  opacity: 0;
 }
 
 /*.link .current::after {
