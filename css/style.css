@@ -158,7 +158,7 @@ a {
 
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2px;
   display: block;
   width: 100%;
   height: 4px;
@@ -387,6 +387,35 @@ a {
 }
 .work-list li:not(:last-child) {
   margin-right: 30px;
+}
+.work-image {
+  display: block;
+}
+.text-work {
+  margin: 0;
+  padding: 27px 82px 27px 83px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+}
+.work-link {
+  position: relative;
+}
+
+.offer {
+  position: absolute;
+  bottom: 3.5px;
+  margin: 0;
+  width: 100%;
+
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 /*команда */
